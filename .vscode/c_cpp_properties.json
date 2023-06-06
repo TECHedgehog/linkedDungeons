@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "macos-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/lib",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/includes"
+            ],
+            "compilerPath": "/opt/homebrew/bin/gcc",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "macos-gcc-arm64",
+            "compilerArgs": [
+                ""
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

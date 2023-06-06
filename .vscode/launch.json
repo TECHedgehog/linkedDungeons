@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+  {
+	"type": "lldb",
+	"request": "launch",
+	"name": "Launch",
+	"program": "${workspaceFolder}/linkedDungeons",
+	"args": [],
+	"cwd": "${workspaceFolder}"
+  },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/eric/Desktop/linkedDungeons",
+      "program": "/Users/eric/Desktop/linkedDungeons/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb"
+    }
+  ]
+}
