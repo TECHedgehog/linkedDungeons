@@ -65,26 +65,11 @@ void	printMap(t_room *map, int *mapSize)
 	printf("\n");
 }
 
-void	createWindow()
-{
-	InitWindow(500, 500, "Template-4.0.0");
-
-    while (!WindowShouldClose()) {
-        BeginDrawing();
-            ClearBackground(RAYWHITE);
-    
-        EndDrawing();
-    }
-    
-    CloseWindow();
-}
-
 int		main(int argc, char **argv)
 {
 	(void)argv;
 	(void)argc;
 
-	createWindow();
 	/* t_room	*map;
 
 	//printf("%d - %s", argc, argv[1]);

@@ -38,7 +38,16 @@
 	"linked_dungeons.h": "c",
 	"string.h": "c",
 	"stdlib.h": "c",
-	"time.h": "c"
+	"time.h": "c",
+	"raymath.h": "c",
+	"raylib.h": "c"
 },
-"C_Cpp.errorSquiggles": "enabled"
+"C_Cpp.errorSquiggles": "enabled",
+"makefile.launchConfigurations": [
+	{
+		"cwd": "/Users/eric/Desktop/linkedDungeons/bin",
+		"binaryPath": "/Users/eric/Desktop/linkedDungeons/bin/linkedDungeons",
+		"binaryArgs": []
+	}
+]
 }
