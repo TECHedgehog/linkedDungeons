@@ -19,7 +19,7 @@
 *                            "Y88P"                            *
 ***************************************************************/
 
-#include "linked_dungeons.h"
+#include <linked_dungeons.h>
 
 void	initMap(t_room *map, int *mapSize)
 {
@@ -65,11 +65,17 @@ void	printMap(t_room *map, int *mapSize)
 	printf("\n");
 }
 
+// int		parseArgv(int argc, char **argv)
+// {
+
+// }
+
 int		main(int argc, char **argv)
 {
 	(void)argv;
 	(void)argc;
 
+	setWindow(800, 600);
 	/* t_room	*map;
 
 	//printf("%d - %s", argc, argv[1]);

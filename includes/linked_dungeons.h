@@ -9,6 +9,9 @@
 # include <raymath.h>
 # include <stdbool.h>
 
+# define MAX(a, b) ((a)>(b)? (a) : (b))
+# define MIN(a, b) ((a)<(b)? (a) : (b))
+
 typedef struct	s_seed
 {
 // Optional. Will be useful for saving maps by name.
@@ -71,5 +74,7 @@ int		addRoomUp(t_room **map, int createOnSame);
 int		addRoomDown(t_room **map, int createOnSame);
 int		addRoomRight(t_room **map, int createOnSame);
 int		addRoomLeft(t_room **map, int createOnSame);
+
+void	setWindow(int winW, int winH);
 
 #endif
